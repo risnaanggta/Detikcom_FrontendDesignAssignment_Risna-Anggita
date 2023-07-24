@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  background: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(73, 145, 240);
+  position: fixed;
+  color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .nav-link-active {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: white;
+}
+
+.navbar .container .navbar-brand,
+.inc .footer-brand {
+  color: #fff;
+  font-size: 70%;
+}
+
+.navbar .container .navbar-brand span,
+.inc .footer-brand span {
+  font-size: 230%;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+}
+
+#register {
+  background-color: #fff;
+}
+
+.jumbotron {
+  padding-top: 20%;
+  padding-bottom: 10%;
+  background-color: #c5d4eb;
+  text-align: center;
+  background-image: url(img/j.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron h3 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 70%;
+}
+
+.d-flex .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-items: center;
+  margin: 1rem 10rem;
+}
+
+.d-flex .flex-grow-1 h2 {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(67, 111, 230);
+}
+
+.bg .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  background-color: white;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  margin-bottom: 5rem;
+}
+
+.bg {
+  background-color: rgb(67, 111, 230);
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.bg .cards .card-body .d-flex {
+  padding-top: 0;
+}
+
+.container .row .col-sm-4 .card {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.container .row .col-sm-4 .card:hover {
+  color: rgb(67, 111, 230);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.regis {
+  padding-top: -2rem;
+  padding-right: 25rem;
+  padding-left: 25rem;
+  margin-top: 0%;
+  display: inline-block;
+  width: 100%;
+}
+
+.inc p {
+  font-size: 75%;
+}
+
+.inc h7 {
+  font-size: 70%;
+  font-style: oblique;
+}
+
+.gerak h2 {
+  color: rgb(67, 111, 230);
+  font-size: 100%;
+}
+
+.gerak .d-flex .p-2 {
+  width: 100vw;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: slide 1s linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Gambar mulai dari posisi awal (0px ke kanan) */
+  }
+  100% {
+    transform: translateX(-100%); /* Gambar bergerak ke kiri sejauh 100% dari lebar container */
+  }
+}
